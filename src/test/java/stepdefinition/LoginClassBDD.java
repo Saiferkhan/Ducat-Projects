@@ -41,6 +41,11 @@ public class LoginClassBDD {
 	    public void user_should_see_homepage() {
 	        
 	        }
+	    @And("profile picture display")
+	    public void profile_picture_display() {
+	    	
+	    	driver.quit();
+	    }
 	       
 	    }
 	
